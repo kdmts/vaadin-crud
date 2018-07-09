@@ -86,7 +86,7 @@ public class MainUI extends UI {
         deleteOrderBtn.setIcon(FontAwesome.REMOVE);
         filterLayout.addComponents(filterSelect, filterText, filterBtn);
         filterLayout.setWidth(100, Unit.PERCENTAGE);
-        filterSelect.addItems("Client", "Status", "Description");
+        filterSelect.addItems("Client", "Description");
         filterSelect.setValue("Client");
         filterSelect.setNullSelectionAllowed(false);
         filterLayout.setMargin(new MarginInfo(false, true, false, true));
