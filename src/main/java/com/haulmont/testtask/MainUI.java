@@ -107,7 +107,7 @@ public class MainUI extends UI {
         editMechanicBtn.setIcon(FontAwesome.EDIT);
         deleteMechanicBtn.setIcon(FontAwesome.REMOVE);
         statMechanicBtn.setEnabled(false);
-        mechanicsToolPanel.addComponents(newMechanicBtn, editMechanicBtn, deleteMechanicBtn, statMechanicBtn);
+        mechanicsToolPanel.addComponents(newMechanicBtn, editMechanicBtn, deleteMechanicBtn);
         mechanicsToolPanel.setMargin(true);
         mechanicsToolPanel.setSpacing(true);
         mechanicsGrid.setColumns("firstname", "surname", "lastname", "tax");
