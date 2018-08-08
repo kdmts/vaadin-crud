@@ -1,4 +1,4 @@
-Test Task
+Test Task for Haulmont
 =========
 
 Prerequisites
